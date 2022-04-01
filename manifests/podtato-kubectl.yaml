@@ -23,7 +23,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: docker.io/thschue/entry:0.2.7-1
+        image: docker.io/thschue/podtato-entry:0.2.7-1
         imagePullPolicy: Always
         ports:
         - containerPort: 9000
@@ -69,7 +69,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image:  docker.io/thschue/hat:0.2.7-1
+          image:  docker.io/thschue/podtato-hat:0.2.7-1
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
@@ -113,7 +113,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image:  docker.io/thschue/left-leg:0.2.7-1
+          image:  docker.io/thschue/podtato-left-leg:0.2.7-1
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
@@ -157,7 +157,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image:  docker.io/thschue/left-arm:0.2.7-1
+          image:  docker.io/thschue/podtato-left-arm:0.2.7-1
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
@@ -201,7 +201,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image:  docker.io/thschue/right-leg:0.2.7-1
+          image:  docker.io/thschue/podtato-right-leg:0.2.7-1
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
@@ -245,7 +245,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image:  docker.io/thschue/right-arm:0.2.7-1
+          image:  docker.io/thschue/podtato-right-arm:0.2.7-1
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
